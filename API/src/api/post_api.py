@@ -1,0 +1,32 @@
+import requests
+from typing import Dict
+from API.src.api.base_api import BaseApi
+
+
+class PostApi(BaseApi):
+    def request(self, url: str, headers: Dict[str, str], data: Dict[str, str] = {}, files: bytes = {}) -> Dict:
+        """
+        This method makes request by url
+        :param url: url
+        :param headers: headers
+        :return: transformed response
+        """
+        response = requests.post(
+            url=url,
+            headers=headers,
+            data=data,
+            files=files
+        )
+
+        return self.transform_response(response)
+
+    @staticmethod
+    def get_headers() -> Dict[str, str]:
+        """
+        This method returns headers
+        :return: headers
+        """
+        return {
+            "accept": "application/json",
+            "Content-Type": "application/json"
+        }
