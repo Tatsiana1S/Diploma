@@ -1,6 +1,6 @@
 import allure
-from Selenium.locators.cart_page_locators import TXT_CART_PRICE, IN_ITEM_COUNT, BN_SUBMIT
-from Selenium.pages.base_page import BasePage
+from UI.locators.cart_page_locators import TXT_CART_PRICE, IN_ITEM_COUNT, BN_SUBMIT
+from UI.pages.base_page import BasePage
 
 
 class CartPage(BasePage):

@@ -1,6 +1,6 @@
 import allure
-from Selenium.locators.catalog_page_locators import PARENT_CATEGORY, CHILD_CATEGORY
-from Selenium.pages.base_page import BasePage
+from UI.locators.catalog_page_locators import PARENT_CATEGORY, CHILD_CATEGORY
+from UI.pages.base_page import BasePage
 
 
 class CatalogPage(BasePage):

@@ -1,6 +1,6 @@
 import allure
-from Selenium.locators.item_page_locators import A_ITEM_PRICE, BN_ADD_TO_BUCKET, BN_GO_TO_CART
-from Selenium.pages.base_page import BasePage
+from UI.locators.item_page_locators import A_ITEM_PRICE, BN_ADD_TO_BUCKET, BN_GO_TO_CART
+from UI.pages.base_page import BasePage
 
 
 class ItemPage(BasePage):

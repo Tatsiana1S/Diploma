@@ -1,11 +1,11 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from Selenium.pages.cart_page import CartPage
-from Selenium.pages.catalog_page import CatalogPage
-from Selenium.pages.item_list_page import ItemListPage
-from Selenium.pages.item_page import ItemPage
-from Selenium.pages.main_page import MainPage
+from UI.pages.cart_page import CartPage
+from UI.pages.catalog_page import CatalogPage
+from UI.pages.item_list_page import ItemListPage
+from UI.pages.item_page import ItemPage
+from UI.pages.main_page import MainPage
 
 
 @pytest.fixture

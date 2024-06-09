@@ -1,6 +1,6 @@
 import allure
-from Selenium.locators.main_page_locators import CATALOG
-from Selenium.pages.base_page import BasePage
+from UI.locators.main_page_locators import CATALOG
+from UI.pages.base_page import BasePage
 
 
 class MainPage(BasePage):

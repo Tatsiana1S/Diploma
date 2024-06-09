@@ -1,9 +1,9 @@
 import allure
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.actions.wheel_input import ScrollOrigin
-from Selenium.locators.item_list_page_locators import SHOP_CHECKBOX, DEVICE_STATUS_CHECKBOX, \
+from UI.locators.item_list_page_locators import SHOP_CHECKBOX, DEVICE_STATUS_CHECKBOX, \
     FIRST_ITEM
-from Selenium.pages.base_page import BasePage
+from UI.pages.base_page import BasePage
 
 
 class ItemListPage(BasePage):
